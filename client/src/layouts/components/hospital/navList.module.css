@@ -1,0 +1,23 @@
+.link_style{
+    text-decoration: none;
+    color: white;
+    margin-left: 2%;
+   
+}
+.list{
+    display: flex;
+    align-items: center;
+    padding: 1.3rem;
+    margin: 2%;
+}
+.flex_ul{
+    display: flex;
+}
+.list:hover{
+        justify-content: flex-start;
+    text-align: left;
+    color: #FFFFFF!important;
+    /* width: 100%; */
+    background: #14BEF0!important;
+
+}

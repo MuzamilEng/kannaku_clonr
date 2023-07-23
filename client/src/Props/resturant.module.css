@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.resturant_container_body {
+  display: flex;
+}
+.resturant_container {
+  font-family: 'Poppins';
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px solid grey;
+  width: 113%;
+  /* margin: 2px; */
+  border: 13px solid rgb(246 244 244);
+}
+.icons_div {
+  display: flex;
+}
+
+.image_icons {
+  width: 30px;
+  padding: 2px 5px;
+}
+.couple {
+  font-family: 'Poppins';
+  text-align: center;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 12px;
+}
+.hotel_info_body {
+  font-family: 'Poppins';
+  display: flex;
+  margin: 3px;
+  padding: 3px;
+}
+
+.hotel_Info {
+  font-family: 'Poppins';
+  margin: 3px;
+  padding: 2px;
+}
+.hotel_info_content {
+  font-family: 'Poppins';
+  padding: 18px 7px;
+  height: 257px;
+}
+.hotel_info_content_body {
+  font-family: 'Poppins';
+  margin-left: 2%;
+  padding: 5px;
+  padding-top: 9px;
+}
+.hotel_info_content_body1 {
+  font-family: 'Poppins';
+  margin-top: -5%;
+}
+.star_image {
+  width: 80px;
+}
+
+.booked_time {
+  font-family: 'Poppins';
+  color: rgb(238, 44, 76);
+}
+.hotel2_Title {
+  margin-top: -3%;
+}
+
+.points {
+  font-family: 'Poppins';
+  background-color: green;
+  color: white;
+  border: 1px;
+  font-weight: bold;
+}
+.green {
+  color: green;
+}
+.discount_body {
+  /* height: 218px; */
+}
+.discounts_cantents {
+  margin-top: 11%;
+}
+
+.hotel_picture {
+  width: 300px;
+  height: 218px;
+  border-radius: 4px;
+}
+.my_hotel {
+  display: flex;
+  align-items: center;
+  margin-top: 1.6rem;
+  margin-left: 1.2rem;
+}
+.discounts_section {
+  margin-left: 9%;
+}
+
+.book_now1 {
+  font-family: 'Poppins';
+  padding: 19px;
+  border-radius: 7px;
+  border: 1px solid;
+  color: white;
+  background-color: blue;
+}
+.loc_icon {
+  width: 15px;
+}
+.bolder {
+  font-weight: bold;
+
+  font-size: 25px;
+}

@@ -1,0 +1,33 @@
+.footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 7%;
+}
+
+.mobile_icons {
+  margin-left: -90%;
+  padding-bottom: 6.5%;
+}
+
+.stores {
+  padding: 43px;
+}
+
+.download_info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  max-width: 645px;
+  color: #ffffff;
+  padding-bottom: 4%;
+}
+.playstore {
+  padding-left: 5%;
+}
+
+.stores_icon {
+  padding: 3px;
+}

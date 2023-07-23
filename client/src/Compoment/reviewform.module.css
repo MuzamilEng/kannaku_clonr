@@ -1,0 +1,115 @@
+.review_section {
+  display: flex;
+  font-family: 'Poppins';
+  padding-bottom: 4%;
+  border-bottom: 1px solid rgb(218, 214, 214);
+}
+.review_form {
+  margin: 2px;
+  padding: 2px;
+}
+.review_box {
+  display: flex;
+  font-family: 'Poppins';
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: rgb(78, 78, 250);
+  height: 150px;
+  width: 150px;
+  border-radius: 4px;
+}
+
+.revie {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 39px;
+}
+.excellent {
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
+.based {
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
+.name_user {
+  padding-bottom: 3px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.review_button {
+  padding-top: 2%;
+  font-family: 'Poppins';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_review {
+  font-family: 'Poppins';
+  padding: 7px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.review_placeholder {
+  width: 96%;
+  font-size: 15px;
+  padding: 11px;
+  font-family: 'Poppins';
+  border: 1px solid #d3d1d1;
+}
+
+.submit_review_content {
+  padding-top: 3%;
+  padding-left: 2%;
+  font-family: 'Poppins';
+}
+
+.text_area {
+  width: 96%;
+  font-size: 15px;
+  padding: 11px;
+  font-family: 'Poppins';
+  border: 1px solid #d3d1d1;
+}
+
+.input_box {
+  display: flex;
+  font-family: 'Poppins';
+}
+
+.checkbox_content {
+  padding-top: 2%;
+  padding-left: 2%;
+  font-family: 'Poppins';
+}
+
+.radios {
+  padding: 2%;
+  margin: 14px;
+  font-family: 'Poppins';
+}
+
+.review_submit_button {
+  padding-top: 2%;
+  font-family: 'Poppins';
+}
+
+.review_submit {
+  padding: 15px;
+  width: 20%;
+  text-align: center;
+  color: white;
+  background-color: rgb(78, 78, 250);
+  border: 1px;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  cursor: pointer;
+}

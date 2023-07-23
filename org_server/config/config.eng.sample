@@ -1,0 +1,11 @@
+NODE_ENV=development
+PORT=5000
+
+MONGO_URI=
+
+VTPASS_URI=https://vtpass.com
+VTPASS_MESSAGING_URI=https://messaging.vtpass.com
+
+VTPASS_API_KEY=
+VTPASS_PUBLIC_KEY=
+VTPASS_SECRET_KEY=

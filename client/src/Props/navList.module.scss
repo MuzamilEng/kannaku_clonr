@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.navList_wrapper {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2%;
+}
+.testimonial_container {
+  display: flex;
+}
+
+.testimonial {
+  display: flex;
+  width: 160.91px;
+  height: 78.92px;
+  background: #dadada;
+  align-items: center;
+  justify-content: space-around;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.navList_container :hover {
+  background: #ffc814;
+}
+
+.testimonial_img {
+  width: 44.23px;
+  height: 47.94px;
+  border-radius: 4px 4px 0px 0px;
+}

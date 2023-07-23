@@ -1,0 +1,102 @@
+.header {
+  margin: 0;
+}
+.header_container {
+  display: flex;
+  font-family: 'Poppins';
+  justify-content: space-between;
+  align-items: center;
+  height: 132.13px;
+  margin: 3px;
+  padding: 2px;
+}
+.header_links :hover {
+}
+.header_content {
+  display: flex;
+}
+.header_content1 {
+  display: flex;
+  margin-right: 17%;
+  font-family: 'Poppins';
+}
+.header_logo {
+  width: 130.79px;
+  height: 32px;
+  margin-left: 12%;
+  font-family: 'Poppins';
+}
+.search_icon {
+  position: absolute;
+  top: 1.2%;
+  left: 20%;
+}
+.header_menu {
+  display: flex;
+  padding-right: 6%;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.header_menu :hover {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+.header_input {
+  margin-left: 118px;
+  align-items: center;
+}
+.header_input_field {
+  padding: 3px;
+  font-family: 'Poppins';
+  padding-left: 38px;
+  height: 32px;
+  width: 240px;
+  background: #ecebeb;
+  border-radius: 4px;
+  border: 1px;
+}
+.header_lists {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins';
+  padding: 3px;
+  margin-left: 20px;
+}
+.header_links {
+  text-decoration: none;
+  color: #000000;
+}
+.search_icon {
+  position: absolute;
+  top: 0.75%;
+}
+.header_login_btn {
+  width: 67px;
+  height: 32px;
+  font-family: 'Poppins';
+  color: #816afe;
+  background: #f3f1ff;
+  border: 1px #f3f1ff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header_account {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+}
+.profile_image {
+  width: 48px;
+  height: 48px;
+  font-family: 'Poppins';
+}
+.red {
+  color: #f61c1c;
+}
+.profile_info {
+  position: relative;
+}
+.profile_email {
+  position: absolute;
+  top: 56%;
+}

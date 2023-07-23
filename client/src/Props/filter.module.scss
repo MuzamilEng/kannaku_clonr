@@ -1,0 +1,79 @@
+.cantent_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blue_arrow {
+  color: blue;
+  width: 25px;
+  height: 25px;
+}
+.filter_cantent {
+  margin-top: -13%;
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+.filter_sections {
+  width: 300px;
+  margin: 2px;
+  padding: 12px;
+}
+.cantent_input {
+  padding: 7px;
+  align-items: center;
+  padding-top: 4px;
+  margin-top: 19px;
+  width: 320px;
+}
+.large {
+  font-size: 23px;
+}
+.price_align{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter_hotel {
+  position: relative;
+  margin-bottom: 11px;
+}
+.search_filter {
+  position: absolute;
+  color: gray;
+  top: 9%;
+  left: 87%;
+  width: 26px;
+}
+.my_property {
+  font-family: "Inter", sans-serif;
+  width: 280px;
+  padding: 2px;
+  text-align: center;
+}
+.filter_cantent1 {
+  height: 138px;
+  padding-bottom: -58px;
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+.ranges_input {
+  padding-top: 4px;
+  width: 250px;
+}
+.arrow_menu {
+  width: 15px;
+  height: 15px;
+}
+.filter_content_section {
+  padding: 3px;
+  display: flex;
+  /* margin-top: 14%; */
+  align-items: center;
+  justify-content: space-between;
+}
+.fields {
+  /* padding-top: 22px;
+  padding-bottom: 10px; */
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+.pr_type {
+  padding-top: 2%;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.order_wrapper {
+  background: white;
+  max-width: 550px;
+}
+.toggle {
+  margin-right: 2%;
+  padding-right: 2%;
+}
+
+.toggle_icon {
+  color: grey;
+}
+.grey {
+  color: rgb(95, 95, 95);
+}
+.toggle_icon0 {
+  padding-right: 2%;
+}
+.user_field {
+  width: 550px;
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.shedule {
+  padding: 2px;
+  font-family: 'Poppins';
+  color: rgb(95, 95, 95);
+}
+.order {
+  display: flex;
+  padding: 2px;
+}
+.right_away {
+  display: flex;
+  padding: 3%;
+  font-family: 'Poppins';
+}
+.right_awayContent {
+  display: flex;
+  font-family: 'Poppins';
+}
+.right_awayContent1 {
+  font-family: 'Poppins';
+  display: flex;
+  margin-left: 19%;
+}
+.circle1 {
+  background: black;
+  border: none;
+  margin: 4px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.circle2 {
+  color: gray;
+  margin: 4px;
+  width: 15px;
+  height: 15px;
+}
+.vehicle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 530px;
+  padding: 8px;
+  margin-left: 2%;
+  font-family: 'Poppins';
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #4cb45d;
+}

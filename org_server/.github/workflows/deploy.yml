@@ -1,0 +1,80 @@
+name: Build, push, and deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    ##
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
+      - uses: sonarsource/sonarqube-scan-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      - name: make env
+        run: touch .env
+      - name: add secrets
+        run: |
+          cat << EOF > .env
+          BYPASSCODE = ${{secrets.BYPASSCODE }}
+          CLIENT_ID = ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET = ${{secrets.CLIENT_SECRET }}
+          DEALER_CODE_EEDC = ${{secrets.DEALER_CODE_EEDC }}
+          DEALER_CODE_IKEJA = ${{secrets.DEALER_CODE_IKEJA }}
+          EEDC_APP_KEY = ${{secrets.EEDC_APP_KEY }}
+          IKEJA_APP_KEY = ${{secrets.IKEJA_APP_KEY }}
+          MONGO_URI = ${{secrets.MONGO_URI }}
+          TEXTNG_API = ${{secrets.TEXTNG_API }}
+          PORT = ${{secrets.PORT }}
+          PORT= 8080
+          MONGO_URI = mongodb+srv://default:gEIWySV8HfH51Nq7@cluster0.vh6we.mongodb.net/userServiceDB?retryWrites=true
+          VTPASS_URI = https://vtpass.com
+          VTPASS_MESSAGING_URI = https://messaging.vtpass.com
+          VTPASS_MESSAGE_PUBLIC_KEY = VTP_PK_b35ff47bc6aa5f4c0a16f0a83683183089451a07dc53d09d337bd0790de72d09
+          VTPASS_MESSAGE_SECRET_KEY = VTP_SK_3b70df1635b401d4ce4e6ada18a06a181d60ba99a2cdbf7123d00473cd7bb992
+
+      - name: make env
+        run: ls -la
+      - name: view env
+        run: more .env
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+
+      - name: Build container image
+        run: docker build -t ${{ secrets.REGISTRY_NAME }}/billing-service:$(echo $GITHUB_SHA | head -c7) .
+
+      - name: Log in to DigitalOcean Container Registry with short-lived credentials
+        run: doctl registry login --expiry-seconds 1200
+
+      - name: Push image to DigitalOcean Container Registry
+        run: docker push ${{ secrets.REGISTRY_NAME }}/billing-service:$(echo $GITHUB_SHA | head -c7)
+      - name: Update deployment file
+        run: TAG=$(echo $GITHUB_SHA | head -c7) && sed -i 's|<IMAGE>|${{ secrets.REGISTRY_NAME }}/billing-service:'${TAG}'|' k8s/manifest.yml
+      - name: Save DigitalOcean kubeconfig with short-lived credentials
+        run: doctl kubernetes cluster kubeconfig save --expiry-seconds 600 ${{ secrets.CLUSTER_NAME }}
+
+      - name: Deploy to DigitalOcean Kubernetes
+        run: kubectl apply -f k8s/manifest.yml
+
+      - name: Verify deployment
+        run: kubectl rollout status deployment/billing
+
+      - name: Remove old images from Container Registry
+        uses: ripplr-io/docr-image-remove@v1
+        with:
+          image_repository: ${{ secrets.REGISTRY_NAME }}/billing-service
+          buffer_size: 2

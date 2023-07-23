@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.merchant {
+  padding-left: 2%;
+}
+
+.toggle {
+  margin-right: 2%;
+  padding-right: 2%;
+}
+
+.toggle_icon {
+  color: grey;
+}
+.user_field {
+  max-width: 550px;
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}

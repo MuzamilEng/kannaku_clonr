@@ -1,0 +1,175 @@
+.navbar {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.testimonial_container {
+  display: flex;
+}
+.testimonial {
+  display: flex;
+  width: 157.91px;
+  height: 71.92px;
+  background: #dadada;
+  align-items: center;
+  justify-content: space-around;
+  margin: 8px;
+  cursor: pointer;
+}
+/* .navbar_container{
+  position: absolute;
+  top: 20%;
+} */
+.testimonial_container :hover {
+  background: #ffc814;
+}
+.testimonial_img {
+  width: 44.23px;
+  height: 47.94px;
+  border-radius: 4px 4px 0px 0px;
+}
+.nav_container {
+  height: 117.71px;
+  background: #d3d4ed;
+  box-shadow: 0px 6px 24px;
+  padding: 3px;
+  justify-content: space-between;
+}
+.nav_input_lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking_info_container {
+  display: flex;
+  align-items: center;
+  /* padding-top: 4%; */
+}
+.booking_info_labels {
+  width: 199.02px;
+  height: 20.77px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #1f3347;
+}
+.booking_info {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 5%;
+}
+.room_people2 {
+  position: absolute;
+  top: 13.9%;
+}
+.info_placeholder::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.info_placeholder {
+  text-align: center;
+  width: 237.62px;
+  font-family: 'Poppins';
+  height: 48.47px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 6px 24px #e4e2ee;
+  border-radius: 4px;
+  border: 1px;
+  cursor: pointer;
+}
+.orange {
+  color: #f61c1c;
+}
+.nav_search {
+  width: 235.88px;
+  height: 58.83px;
+  font-family: 'Poppins';
+  cursor: pointer;
+  color: #ffffff;
+  background: #000000;
+  box-shadow: 0px 6px 24px rgba(255, 200, 20, 0.4);
+  border-radius: 4px;
+}
+.booking_info_container1 {
+  margin-right: 4%;
+  padding-top: 1.8%;
+}
+.header_account {
+  left: 81%;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  position: absolute;
+}
+.nav_icon_section {
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+.loc1 {
+  position: absolute;
+  margin: 2%;
+}
+.profile_image {
+  width: 48px;
+  height: 48px;
+  font-family: 'Poppins';
+}
+.red {
+  color: #f61c1c;
+}
+.profile_info {
+  position: relative;
+}
+.profile_name {
+  color: #ffff;
+}
+.profile_email {
+  position: absolute;
+  top: 63%;
+  font-size: 15px;
+  color: #ffff;
+}
+.nav_searchInput {
+  max-height: 45px;
+  width: 642px;
+  position: absolute;
+  left: 31%;
+  top: 7%;
+  border-radius: 44px;
+  align-items: center;
+  display: flex;
+  background: #ffffff;
+}
+.hotel_mainImage {
+  width: 100%;
+  height: 370px;
+}
+.nav_INput1 {
+  position: absolute;
+  top: 13.15%;
+  left: 30%;
+}
+.nav_roomInput1 {
+  position: absolute;
+  top: 15%;
+  left: 57.23%;
+  background-color: #ffffff;
+  padding-bottom: 1%;
+}
+.roonInput_button {
+  font-family: 'Poppins';
+  width: 237.62px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+
+  font-weight: bold;
+  color: #ffff;
+  background-color: blue;
+}
+/*  */

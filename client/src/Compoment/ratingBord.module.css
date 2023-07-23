@@ -1,0 +1,119 @@
+
+.rating_scorebord {
+    font-family: Arial;
+    margin: 0 auto;
+    /* Center website */
+    max-width: 800px;
+    margin-top: -4%;
+    /* Max width */
+    padding: 20px;
+        font-family: 'Poppins';
+}
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+        font-family: 'Poppins';
+}
+
+.fa {
+    font-size: 25px;
+        font-family: 'Poppins';
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+float: left;
+    width: 15%;
+    padding-left: 48px;
+        font-family: 'Poppins';
+    margin-top: 0px;
+}
+.exe{
+    padding: 7px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+        font-family: 'Poppins';
+
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+        font-family: 'Poppins';
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+        font-family: 'Poppins';
+}
+
+/* The bar container */
+.bar_container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+        font-family: 'Poppins';
+}
+
+/* Individual bars */
+.bar_5 {
+    width: 100%;
+    height: 18px;
+    background-color: #2196F3;
+        font-family: 'Poppins';
+}
+
+.bar_4 {
+    width: 80%;
+    height: 18px;
+    background-color: #2196F3;
+        font-family: 'Poppins';
+}
+
+.bar_3 {
+    width: 60%;
+    height: 18px;
+    background-color: #2196F3;
+        font-family: 'Poppins';
+}
+
+.bar_2 {
+    width: 40%;
+    height: 18px;
+    background-color: #2196F3;
+        font-family: 'Poppins';
+}
+
+.bar_1 {
+    width: 20%;
+    height: 18px;
+    background-color: #2196F3;
+        font-family: 'Poppins';
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+
+    .side,
+    .middle {
+        width: 100%;
+    }
+
+    /* Hide the right column on small screens */
+    .right {
+        display: none;
+    }
+}

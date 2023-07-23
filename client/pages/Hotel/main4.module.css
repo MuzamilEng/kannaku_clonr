@@ -1,0 +1,144 @@
+.main4_container {
+  display: flex;
+}
+.main4_form {
+  font-family: 'Poppins';
+  margin: 3px;
+  padding: 3px;
+  margin-right: 5%;
+  height: 85.3rem;
+  width: 1433px;
+  background: white;
+
+  border: 2px solid #f4f0f0;
+}
+.dropdown_hotel4 {
+  max-width: 384px;
+  margin-left: 1%;
+}
+.grey_bg {
+  background-color: rgb(245, 245, 245);
+}
+.form4_inputs {
+  font-family: 'Poppins';
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(218, 214, 214);
+}
+.checkin_date {
+  margin-top: -4%;
+}
+.h4_form_section {
+  border: 1px solid #cdcdcd;
+}
+.guest_info {
+  font-family: 'Poppins';
+  align-items: center;
+  display: flex;
+  padding: 8px;
+}
+.hotel_details {
+  display: flex;
+  font-family: 'Poppins';
+  padding: 12px;
+  border-bottom: 1px solid #cdcdcd;
+  justify-content: space-between;
+}
+.form4_inputs_details {
+}
+
+.guest_form_container {
+  display: flex;
+  padding: 22px;
+  font-family: 'Poppins';
+  justify-content: space-evenly;
+  background: #dadada;
+  border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+.note_content {
+  padding: 15px;
+  font-family: 'Poppins';
+  border-bottom: 1px solid rgb(193, 193, 193);
+}
+.note_bold {
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+.hotel_location {
+  margin-top: -5%;
+}
+.bold {
+  font-weight: bold;
+}
+.ai_footer {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins';
+  border-bottom: 1px solid rgb(193, 193, 193);
+}
+.ai_footer_para {
+  padding-bottom: 26px;
+  font-family: 'Poppins';
+}
+.footer_note_section {
+  font-family: 'Poppins';
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid rgb(193, 193, 193);
+}
+.print_section {
+  position: relative;
+  display: flex;
+  font-family: 'Poppins';
+  padding: 4px;
+  margin: 4px;
+}
+.print {
+  width: 110px;
+  text-align: center;
+  font-family: 'Poppins';
+  padding: 3px;
+}
+
+.download {
+  padding: 2px;
+}
+.form_wrapper {
+}
+.prints {
+  font-family: 'Poppins';
+  height: 15px;
+  margin-left: 10%;
+}
+.hotel_details {
+  font-family: 'Poppins';
+}
+.dn_icon1 {
+  position: absolute;
+  left: 4%;
+  top: 16%;
+}
+.dn_icon {
+  position: absolute;
+  left: 43%;
+    top: 20%;
+}
+.room_Inputs_sections4 {
+  position: absolute;
+  top: 61.2%;
+  left: 54%;
+}
+.from4_title {
+  padding-top: 30px;
+  width: 40px;
+  height: 40px;
+}

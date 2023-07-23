@@ -1,0 +1,81 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: customer
+spec:
+  selector:
+    matchLabels:
+      app: customer
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: customer
+    spec:
+      containers:
+      - name: customer-service
+        image: <IMAGE>
+        ports:
+        - containerPort: 3010
+        resources:
+          limits:
+            cpu: 200m
+          requests:
+            cpu: 100m
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: customer-svc
+  labels:
+    app: customer
+spec:
+  type: ClusterIP
+  ports:
+  - port: 3010
+    protocol: TCP
+  selector:
+    app: customer
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: customer-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: customer.paymax.ng
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: customer-svc
+            port:
+              number: 3010
+              
+---
+
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: customer-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: customer
+  minReplicas: 1
+  maxReplicas: 3
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 80

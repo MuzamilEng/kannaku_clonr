@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.table_form_body {
+  display: flex;
+  justify-content: space-around;
+  padding: 4px;
+  margin-left: -3%;
+  font-family: 'Poppins';
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+.Amounts {
+  display: flex;
+  font-family: 'Poppins';
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.amount_titles {
+  margin-left: 19rem;
+}
+.Description_d {
+  margin-left: -22%;
+}
+.des_title {
+  padding-left: 182%;
+}

@@ -1,0 +1,83 @@
+$br-white: #ffffff;
+$bg-red: #ed1717;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.NavContainer {
+  margin: 0;
+  padding: 0;
+}
+.navWrapper {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+.nav_imageContainer {
+  max-width: 1946px;
+  height: 358px;
+}
+.nav_mainImg {
+  width: 100%;
+}
+.nav_info {
+  max-width: 500px;
+  position: absolute;
+  top: 6%;
+  left: 30%;
+  padding-bottom: 3%;
+}
+.nav_mainTitle {
+  max-width: 400px;
+}
+.bg_red {
+  color: #ed1717;
+}
+.nav_Title {
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #ffffff;
+}
+.nav_paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding-bottom: 3%;
+  color: #ffffff;
+}
+.nav_searchInput {
+  max-height: 45px;
+  width: 601px;
+  left: 0px;
+  top: 0px;
+  border-radius: 44px;
+  align-items: center;
+  display: flex;
+  background: #ffffff;
+}
+.navInput {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 22px;
+  border: none;
+  color: #bec2ce;
+}
+.rider {
+  padding: 1.76%;
+  /* padding-left: 3%; */
+  /* margin-left: 61%; */
+  height: 100%;
+  color: #ffffff;
+  margin-left: 46.8%;
+  background: #ed1717;
+  border-radius: 0px 44px 44px 0px;
+}

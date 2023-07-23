@@ -1,0 +1,89 @@
+.bed_icons {
+  width: 20px;
+  padding-bottom: 2px;
+  font-family: 'Poppins';
+}
+.room_wrapper {
+  padding-left: 2%;
+  display: flex;
+  /* margin: 3px; */
+  /* padding: -23px; */
+  /* margin-top: -2%; */
+  /* padding-top: -11%; */
+  margin-bottom: 3%;
+  font-family: 'Poppins';
+  border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.room_image {
+  width: 418px;
+  margin: 4px;
+  height: 267px;
+  border-radius: 4px;
+  font-family: 'Poppins';
+}
+.room_statics {
+  padding-left: 1%;
+  font-family: 'Poppins';
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Poppins';
+  margin-top: -6%;
+}
+.statics_icons {
+  display: flex;
+  align-items: center;
+  padding-top: 18%;
+  height: 40px;
+}
+
+.statics_content {
+  padding: 15px;
+  align-items: center;
+  font-family: 'Poppins';
+}
+.price_information {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Poppins';
+  margin-top: -2%;
+}
+.bolder {
+  font-size: 30px;
+  /* font-weight: bold; */
+  font-family: 'Poppins';
+}
+
+.green {
+  color: green;
+}
+.room_btn_section {
+  display: flex;
+  padding-top: 19px;
+  align-items: center;
+  font-family: 'Poppins';
+  justify-content: space-around;
+}
+
+.consult {
+  color: rgb(78, 78, 250);
+  font-weight: bold;
+}
+
+.select_room {
+  padding: 12px;
+  font-weight: bold;
+  color: rgb(78, 78, 250);
+  font-family: 'Poppins';
+  text-align: center;
+  border: 1px solid rgb(78, 78, 250);
+}

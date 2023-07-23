@@ -1,0 +1,51 @@
+.navInput_container {
+  margin: 0;
+  padding: 0%;
+}
+.navInput_wrapper {
+  display: flex;
+  align-items: center;
+  width: 630px;
+  position: relative;
+}
+.navInput_icon {
+  color: #ed1717;
+  position: absolute;
+  cursor: pointer;
+}
+.navInput_input {
+  cursor: pointer;
+  width: 100%;
+  padding: 13px;
+  padding-left: 6%;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  border-radius: 38px;
+}
+.navInput_input2 {
+  text-align: center;
+  color: white;
+  background: #ed1717;
+  padding: 17.5px;
+  margin-left: -36%;
+  border: none;
+  width: 36%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 0px 50px 50px 0px;
+  cursor: pointer;
+}
+.hotel_img_title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 70px;
+  color: #ffffff;
+  margin-top: 1%;
+}
+.red {
+  color: #f61c1c;
+}

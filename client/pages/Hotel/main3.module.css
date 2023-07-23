@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.main3_container {
+  display: flex;
+  margin: 2px;
+  background: #f1f5f8;
+  padding: 2px;
+}
+.main3_content {
+  margin-left: -5%;
+  width: 61.3%;
+  border: 9px solid #e8e8e8;
+  background-color: #fff;
+}
+/* .main3{
+   overflow-block: hidden;
+} */
+.bookings {
+  margin-left: 0.3%;
+  height: 453px;
+  background-color: #fff;
+}
+.choose_room_title {
+  padding-left: 1%;
+  /* padding-top: -13%; */
+  margin-top: 1%;
+}
+.dropdown3 {
+  margin-right: 6%;
+}
+.chat_icon {
+  width: 50px;
+}
+.main3_img_section {
+  width: 900px;
+}
+.ami_icons {
+  width: 48px;
+}
+.ami_icons1 {
+  padding-top: 6px;
+  border: 1px solid rgb(219, 219, 219);
+  height: 43px;
+  width: 47px;
+  margin-top: 10px;
+}
+.main3_img {
+  width: 102.99%;
+  height: 447px;
+  padding: 1%;
+}
+.hotel_policy {
+  display: flex;
+  margin: 2px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+.policies {
+  padding-left: 3%;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+.policy_para {
+  border-top: 1px solid rgb(209, 209, 209);
+  width: 884px;
+}
+.main3_policy {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.policy_paragraph {
+  width: 700px;
+}
+.policies_list {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgb(218, 214, 214);
+  margin-left: -12%;
+}
+.lists_content {
+  list-style: symbols();
+  text-decoration: none;
+}
+.languages {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(218, 214, 214);
+}
+.staf_language {
+  padding-left: 10px;
+}
+
+.bed_info {
+  padding-top: 2%;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.aminities_icons {
+  display: flex;
+  margin-top: -2%;
+}
+.review_container {
+  padding-left: 2%;
+}
+.ami_icons {
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid rgb(224, 224, 224);
+}
+.amenities_section {
+  padding-left: 2%;
+  border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+.bold {
+  font-weight: bold;
+}
+/* reviews content */
+
+.review_section {
+  display: flex;
+  padding-bottom: 4%;
+  border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+.review_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: #2196f3;
+  height: 150px;
+  width: 150px;
+  border-radius: 4px;
+}
+
+.revie {
+  font-weight: bold;
+  font-size: 39px;
+}
+
+.excellent {
+  font-weight: bold;
+}
+
+.based {
+  font-weight: bold;
+}
+
+.name_user {
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+
+.review_button {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_review {
+  padding: 7px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.review_placeholder {
+  width: 96%;
+  font-size: 15px;
+  padding: 11px;
+  border: 1px solid #d3d1d1;
+}
+
+.submit_review_content {
+  padding-top: 3%;
+}
+
+.text_area {
+  width: 96%;
+  font-size: 15px;
+  padding: 11px;
+  border: 1px solid #d3d1d1;
+}
+.review_title {
+  padding-left: 2%;
+}
+
+.input_box {
+  display: flex;
+}
+.REVIEW {
+  display: flex;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+.Box_review {
+  text-align: center;
+  color: white;
+  background-color: #2196f3;
+  border-radius: 4px;
+  height: 180px;
+  width: 180px;
+}
+.checkbox_content {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.radios {
+  padding: 2%;
+  margin: 14px;
+}
+
+.review_submit_button {
+  padding-top: 2%;
+}
+
+.review_submit {
+  padding: 15px;
+  width: 20%;
+  text-align: center;
+  color: white;
+  background-color: rgb(78, 78, 250);
+  border: 1px;
+  border-radius: 4px;
+}
+.amenities {
+  margin-top: -2%;
+}
+
+.room_Inputs_sections3 {
+  position: absolute;
+  top: 31.2rem;
+  left: 53%;
+}

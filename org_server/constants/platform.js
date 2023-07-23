@@ -1,0 +1,3 @@
+exports.platform = {
+    VTPASS: 'vtpass'
+}

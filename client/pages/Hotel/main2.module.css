@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.h2_main_body {
+  display: flex;
+  overflow: hidden;
+  font-family: 'Poppins';
+  background-color: white;
+}
+.main_2_wrapper {
+  margin-left: .5%;
+  border-radius: 10px solid rgb(246 244 244);
+}
+.amdabad {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  font-family: 'Poppins';
+  align-items: center;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.updown {
+  width: 16px;
+  height: 16px;
+  margin-left: -17%;
+  font-family: 'Poppins';
+}
+
+/* .sorts{
+    width: 20px;
+} */
+.sort_input {
+  display: flex;
+  /* position: absolute; */
+  left: 76%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins';
+}
+.dropdown_h2 {
+  max-width: 300px;
+  font-family: 'Poppins';
+}
+.resturant_h2 {
+  margin: 2px;
+  padding-top: 1%;
+  font-family: 'Poppins';
+}
+.main2_wrapper {
+  display: flex;
+}
+.main2_inpt {
+  align-items: center;
+  display: flex;
+  margin: 2px;
+  padding: 3px;
+  font-family: 'Poppins';
+}
+.blue_search {
+  background-color: blue;
+  color: white;
+  border: 1px solid;
+  padding: 17px;
+  width: 19%;
+  font-family: 'Poppins';
+  border-radius: 4px;
+}
+.slider_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113%;
+  /* padding: 67px; */
+  font-family: 'Poppins';
+  background: rgb(246 244 244);
+}
+.slider_sections {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+}
+.sliders {
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid rgb(209, 209, 209);
+}
+.sliders:hover {
+  background-color: blue;
+}
+.left_slider:hover {
+  background-color: blue;
+}
+.left_slider {
+  width: 31px;
+  height: 32px;
+  border: 1px solid;
+}
+.my_property {
+  font-family: 'Inter', sans-serif;
+}
+.yellow {
+  color: #ffc814;
+}
+.room_Inputs_sections2 {
+  position: absolute;
+  top: 62%;
+  left: 53%;
+}

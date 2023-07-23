@@ -1,0 +1,22 @@
+.para_Body {
+  width: 884px;
+  font-family: 'Poppins';
+  margin: 2px;
+  padding: 2px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+.Policies {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins';
+}
+.lists_content {
+  font-size: 18px;
+  margin-left: 14px;
+}
+.para1_body {
+  padding-bottom: 10px;
+  font-family: 'Poppins';
+  font-size: 21px;
+  padding-left: 2%;
+}
